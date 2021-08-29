@@ -22,7 +22,7 @@ int tamgiacvuong(long long int a[], long long int N){
 int main(){
 	int T;cin>> T;
 	while(T--){
-		long long int a[101], N;
+		long long int a[100], N;
 		cin>> N;
 		nhap(a,N);
 		if(tamgiacvuong(a,N)==1){
